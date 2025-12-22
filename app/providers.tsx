@@ -11,6 +11,13 @@ export function Providers({ children }: { children: React.ReactNode }) {
           queries: {
             staleTime: 60 * 1000,
             refetchOnWindowFocus: false,
+            retry: 1,
+          },
+          mutations: {
+            retry: 0,
+            onError: (error) => {
+              console.error('Mutation error:', error);
+            },
           },
         },
       })

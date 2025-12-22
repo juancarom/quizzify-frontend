@@ -1,0 +1,65 @@
+{
+  "common": {
+    "appName": "Quizzify",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  },
+  "nav": {
+    "logout": "Logout",
+    "hello": "Hello",
+    "login": "Login",
+    "signup": "Sign Up"
+  },
+  "home": {
+    "title": "Quizzify",
+    "subtitle": "Interactive Quiz Platform",
+    "login": "Login",
+    "signup": "Sign Up",
+    "backendApi": "Backend API"
+  },
+  "login": {
+    "subtitle": "Log in to your account",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "password": "Password",
+    "passwordPlaceholder": "••••••••",
+    "loginButton": "Log In",
+    "loggingIn": "Logging in...",
+    "noAccount": "Don't have an account?",
+    "signupLink": "Sign up",
+    "orContinueWith": "Or continue with",
+    "emailInvalid": "Invalid email",
+    "passwordMin": "Password must be at least 6 characters",
+    "loginError": "Login failed"
+  },
+  "signup": {
+    "subtitle": "Create your account",
+    "name": "Name",
+    "namePlaceholder": "John Doe",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "password": "Password",
+    "passwordPlaceholder": "••••••••",
+    "confirmPassword": "Confirm Password",
+    "signupButton": "Create Account",
+    "creatingAccount": "Creating account...",
+    "hasAccount": "Already have an account?",
+    "loginLink": "Log in",
+    "orContinueWith": "Or continue with",
+    "nameMin": "Name must be at least 2 characters",
+    "emailInvalid": "Invalid email",
+    "passwordMin": "Password must be at least 6 characters",
+    "passwordMismatch": "Passwords do not match",
+    "signupError": "Failed to create account"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "greeting": "Hello, {name}",
+    "logout": "Logout",
+    "loading": "Loading...",
+    "email": "Email",
+    "role": "Role",
+    "accountCreated": "Account created"
+  }
+}
